@@ -23,7 +23,7 @@
 
 `npm install hexo-baidu-url-submit --save`
 
-然后, 在博客的根目录下, 把一下内容放到_config.yml文件中
+然后, 在博客的根目录下, 把以下内容放到`_config.yml`文件中:
 
 ```yml
 baidu_url_submit:
@@ -31,6 +31,13 @@ baidu_url_submit:
   host: www.hui-wang.info ## 在百度站长平台中注册的域名
   token: your_token ## 请注意这是您的秘钥, 请不要发布在公众仓库里!
   path: baidu_urls.txt ## 文本文档的地址, 新链接会保存在此文本文档里
+```
+
+其次, 加入新的deployer:
+
+```yml
+deploy:
+- type: baidu_url_submitter
 ```
 
 最后,记得查看_config.ym文件中url的值, 必须包含www子域名, 比如:

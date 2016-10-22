@@ -1,7 +1,7 @@
 {
   "name": "hexo-baidu-url-submit",
-  "version": "0.0.3",
-  "description": "submit url to baidu during site deployment",
+  "version": "0.0.4",
+  "description": "submit new posts urls to baidu search engine",
   "main": "index",
   "scripts": {
   },
