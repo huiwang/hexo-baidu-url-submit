@@ -1,13 +1,13 @@
 {
   "name": "hexo-baidu-url-submit",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "submit url to baidu during site deployment",
   "main": "index",
   "scripts": {
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/huiwang/hexo-deployer-baidu-url-submit.git"
+    "url": "https://github.com/huiwang/hexo-baidu-url-submit.git"
   },
 
   "keywords": [
