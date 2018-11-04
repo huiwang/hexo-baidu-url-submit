@@ -1,6 +1,6 @@
 {
   "name": "hexo-baidu-url-submit",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "submit new posts urls to baidu search engine",
   "main": "index",
   "scripts": {
