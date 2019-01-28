@@ -9,6 +9,7 @@
 ## baidu_url_submit 配置
 ```
 baidu_url_submit:
+  enable: true ## 启用与否: true/false
   count: 1000 ## 提交最新的一个链接
   host: alili.tech ## 在百度站长平台中注册的域名
   token: xxxxx ## 请注意这是您的秘钥， 所以请不要把博客源代码发布在公众仓库里!
