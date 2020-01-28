@@ -11,10 +11,10 @@
 baidu_url_submit:
   count: 1000 ## 提交最新的一个链接
   host: alili.tech ## 在百度站长平台中注册的域名
-  token: xxxxx ## 请注意这是您的秘钥， 所以请不要把博客源代码发布在公众仓库里!
+  token: xxxxx ## 请注意这是您的秘钥， 所以请不要把博客源代码发布在公众仓库里! 支持从环境变量 BAIDU_URL_SUBMIT_TOKEN 中获取
   path: baidu_urls.txt ## 文本文档的地址， 新链接会保存在此文本文档里
-  xz_appid: 'xxxxxx' ## 你的熊掌号 appid
-  xz_token: 'xxxxxx' ## 你的熊掌号 token
+  xz_appid: 'xxxxxx' ## 您的熊掌号 appid. 支持从环境变量 BAIDU_XZ_URL_SUBMIT_APPID 中获取
+  xz_token: 'xxxxxx' ## 你的熊掌号 token. 支持从环境变量 BAIDU_XZ_URL_SUBMIT_TOKEN 中获取
   xz_count: 10 ## 从所有的提交的数据当中选取最新的10条,该数量跟你的熊掌号而定
 ```
 
